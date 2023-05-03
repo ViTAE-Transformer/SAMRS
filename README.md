@@ -1,6 +1,5 @@
 <h1 align="center"> Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model <a href="https://arxiv.org/abs/"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a> </h1>
 <p align="center">
-<h4 align="center">This is the official repository of the paper <a href="https://arxiv.org/abs/">Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model</a>.</h4>
 <h5 align="center"><em>Di Wang, Jing Zhang, Bo Du, Dacheng Tao, Liangpei Zhang</em></h5>
 <p align="center">
   <a href="#news">News</a> |
@@ -9,9 +8,6 @@
   <a href="#results">Results</a> |
   <a href="#statement">Statement</a>
 </p>
-
-
-
 
 
 
@@ -35,6 +31,8 @@
   Other applications of [ViTAE](https://github.com/ViTAE-Transformer/ViTAE-Transformer) inlcude: [ViTPose](https://github.com/ViTAE-Transformer/ViTPose) | [Remote Sensing](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing) | [Matting](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting) | [VSA](https://github.com/ViTAE-Transformer/ViTAE-VSA) | [Video Object Segmentation](https://github.com/ViTAE-Transformer/VOS-LLB)
 
 # Abstract
+
+This is the official repository of the paper <a href="https://arxiv.org/abs/"> Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model </a>
 
 <p align="left">The success of the <a href="https://arxiv.org/abs/2304.02643"> Segment Anything Model (SAM) </a> demonstrates the significance of data-centric machine learning. However, due to the difficulties and high costs associated with annotating Remote Sensing (RS) images, a large amount of valuable RS data remains unlabeled, particularly at the pixel level. In this study, we leverage SAM and existing RS object detection datasets to develop an efficient pipeline for generating a large-scale RS segmentation dataset, dubbed SAMRS. SAMRS surpasses existing high-resolution RS segmentation datasets in size by several orders of magnitude, and provides object category, location, and instance information that can be used for semantic segmentation, instance segmentation, and object detection, either individually or in combination. We also provide a comprehensive analysis of SAMRS from various aspects. We hope it could facilitate research in RS segmentation, particularly in large model pre-training.
 
