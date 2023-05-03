@@ -34,6 +34,12 @@
 
 This is the official repository of the paper <a href="https://arxiv.org/abs/"> Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model </a>
 
+<figure>
+<img src="Figs/example.png">
+<figcaption align = "center"><b>Figure 1: Some examples of SAM segmentation results on remote sensing images. 
+ </b></figcaption>
+</figure>
+
 <p align="left">The success of the <a href="https://arxiv.org/abs/2304.02643"> Segment Anything Model (SAM) </a> demonstrates the significance of data-centric machine learning. However, due to the difficulties and high costs associated with annotating Remote Sensing (RS) images, a large amount of valuable RS data remains unlabeled, particularly at the pixel level. In this study, we leverage SAM and existing RS object detection datasets to develop an efficient pipeline for generating a large-scale RS segmentation dataset, dubbed SAMRS. SAMRS surpasses existing high-resolution RS segmentation datasets in size by several orders of magnitude, and provides object category, location, and instance information that can be used for semantic segmentation, instance segmentation, and object detection, either individually or in combination. We also provide a comprehensive analysis of SAMRS from various aspects. We hope it could facilitate research in RS segmentation, particularly in large model pre-training.
 
 
@@ -75,7 +81,7 @@ In figure, we visualize some segmentation annotations from the three subsets in 
 
 <figure>
 <img src="Figs/class.png">
-<figcaption align = "center"><b>Figure 3: Statistics of the number of pixels and instances for each category in the SAMRS database. The histograms for the subsets SOTA, SIOR, and FAST are shown in the first, second, and third columns, respectively. The first row presents histograms on a per-pixel basis, while the second row presents histograms on a per-instance basis.</a>  
+<figcaption align = "center"><b>Figure 4: Statistics of the number of pixels and instances for each category in the SAMRS database. The histograms for the subsets SOTA, SIOR, and FAST are shown in the first, second, and third columns, respectively. The first row presents histograms on a per-pixel basis, while the second row presents histograms on a per-instance basis.</a>  
  </b></figcaption>
 </figure>
 
@@ -85,7 +91,7 @@ In figure, we visualize some segmentation annotations from the three subsets in 
 
 <figure>
 <img src="Figs/mask_size.png">
-<figcaption align = "center"><b>Figure 4: Statistics of the mask sizes in different subsets of the SAMRS database. (a) SOTA. (b) SIOR. (c) FAST.</a>  
+<figcaption align = "center"><b>Figure 5: Statistics of the mask sizes in different subsets of the SAMRS database. (a) SOTA. (b) SIOR. (c) FAST.</a>  
  </b></figcaption>
 </figure>
 
