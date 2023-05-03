@@ -71,7 +71,7 @@ We present the comparison of our SAMRS dataset with existing high-resolution RS 
 
 
 <figure>
-<img src="Figs/vis.jpg">
+<img src="Figs/vis.png">
 <figcaption align = "center"><b>Figure 3: Some visual examples from the three subsets of our SAMRS dataset.  
  </b></figcaption>
 </figure>
