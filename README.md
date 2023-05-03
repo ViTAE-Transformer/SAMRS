@@ -45,8 +45,8 @@ The code and dataset will be released soon.
 ## The basic information of generated datasets
 
 <figure>
-<img src="figs/figure3.png">
-<figcaption align = "center"><b>Figure 3: Comparisons of different high-resolution RS segmentation datasets. 
+<img src="Figs/compare.png">
+<figcaption align = "center"><b>Figure 2: Comparisons of different high-resolution RS segmentation datasets. 
  </b></figcaption>
 </figure>
 
@@ -61,8 +61,8 @@ We present the comparison of our SAMRS dataset with existing high-resolution RS 
 
 
 <figure>
-<img src="figs/figure2.jpg">
-<figcaption align = "center"><b>Figure 2: Some visual examples from the three subsets of our SAMRS dataset.  
+<img src="Figs/vis.jpg">
+<figcaption align = "center"><b>Figure 3: Some visual examples from the three subsets of our SAMRS dataset.  
  </b></figcaption>
 </figure>
 
@@ -74,8 +74,8 @@ In figure, we visualize some segmentation annotations from the three subsets in 
 ### The class distribution.
 
 <figure>
-<img src="figs/figure4.png">
-<figcaption align = "center"><b>Figure 4: Statistics of the number of pixels and instances for each category in the SAMRS database. The histograms for the subsets SOTA, SIOR, and FAST are shown in the first, second, and third columns, respectively. The first row presents histograms on a per-pixel basis, while the second row presents histograms on a per-instance basis.</a>  
+<img src="Figs/class.png">
+<figcaption align = "center"><b>Figure 3: Statistics of the number of pixels and instances for each category in the SAMRS database. The histograms for the subsets SOTA, SIOR, and FAST are shown in the first, second, and third columns, respectively. The first row presents histograms on a per-pixel basis, while the second row presents histograms on a per-instance basis.</a>  
  </b></figcaption>
 </figure>
 
@@ -84,8 +84,8 @@ In figure, we visualize some segmentation annotations from the three subsets in 
 ### The mask size distribution.
 
 <figure>
-<img src="figs/figure5.png">
-<figcaption align = "center"><b>Figure 5: Statistics of the mask sizes in different subsets of the SAMRS database. (a) SOTA. (b) SIOR. (c) FAST.</a>  
+<img src="Figs/mask_size.png">
+<figcaption align = "center"><b>Figure 4: Statistics of the mask sizes in different subsets of the SAMRS database. (a) SOTA. (b) SIOR. (c) FAST.</a>  
  </b></figcaption>
 </figure>
 
