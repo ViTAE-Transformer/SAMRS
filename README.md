@@ -21,16 +21,6 @@
 - The paper is post on arxiv! The code will be made public available once cleaned up.
 
 
-# Relevant Project: 
-
-  > [**An Empirical Study of Remote Sensing Pretraining** ](https://arxiv.org/abs/2204.02825) | [Code](https://github.com/ViTAE-Transformer/RSP)
-  >
-  > Di Wang, Jing Zhang, Bo Du, Gui-Song Xia and Dacheng Tao
-  >
-  > [**Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model** ](https://arxiv.org/abs/2208.03987) | [Code](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA)
-  >
-  > Di Wang, Qiming Zhang, Yufei Xu, Jing Zhang, Bo Du, Dacheng Tao and Liangpei Zhang
-
   Other applications of [ViTAE](https://github.com/ViTAE-Transformer/ViTAE-Transformer) inlcude: [ViTPose](https://github.com/ViTAE-Transformer/ViTPose) | [Remote Sensing](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing) | [Matting](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting) | [VSA](https://github.com/ViTAE-Transformer/ViTAE-VSA) | [Video Object Segmentation](https://github.com/ViTAE-Transformer/VOS-LLB)
 
 # Introduction
@@ -119,4 +109,11 @@ If you find SAMRS helpful, please consider giving this repo a star:star: and cit
 
 ```
 
+## Relevant Projects
+
+[1] <strong>An Empirical Study of Remote Sensing Pretraining, IEEE TGRS, 2022</strong> | [Paper](https://ieeexplore.ieee.org/document/9782149) | [Github](https://github.com/ViTAE-Transformer/RSP)
+<br><em>&ensp; &ensp; &ensp;Di Wang<sup>&#8727;</sup>, Jing Zhang<sup>&#8727;</sup>, Bo Du, Gui-Song Xia and Dacheng Tao</em>
+
+[2] <strong>Advancing Plain Vision Transformer Towards Remote Sensing Foundation Model, IEEE TGRS, 2022</strong> | [Paper](https://ieeexplore.ieee.org/document/9956816/) | [Github](https://github.com/ViTAE-Transformer/Remote-Sensing-RVSA)
+<br><em>&ensp; &ensp; &ensp;Di Wang<sup>&#8727;</sup>, Qiming Zhang<sup>&#8727;</sup>, Yufei Xu<sup>&#8727;</sup>, Jing Zhang, Bo Du, Dacheng Tao and Liangpei Zhang</em>
 
