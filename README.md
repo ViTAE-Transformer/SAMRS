@@ -1,5 +1,7 @@
-<h1 align="center"> Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model <a href="https://arxiv.org/abs/"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a> </h1>
+<h1 align="center"> Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model </h1>
 <p align="center">
+<a href="https://arxiv.org/abs/"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+</p>
 <h5 align="center"><em>Di Wang, Jing Zhang, Bo Du, Dacheng Tao, Liangpei Zhang</em></h5>
 <p align="center">
   <a href="#news">News</a> |
