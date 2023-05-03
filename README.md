@@ -21,7 +21,8 @@
 - The paper is post on arxiv! The code will be made public available once cleaned up.
 
 
-  Other applications of [ViTAE](https://github.com/ViTAE-Transformer/ViTAE-Transformer) inlcude: [VSA](https://github.com/ViTAE-Transformer/ViTAE-VSA) | [ViTPose](https://github.com/ViTAE-Transformer/ViTPose) | [Matting](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting) | [Scene Text Detection](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Scene-Text-Detection)  | [Video Object Segmentation](https://github.com/ViTAE-Transformer/VOS-LLB)
+
+Other applications of [ViTAE](https://github.com/ViTAE-Transformer/ViTAE-Transformer) inlcude: [VSA](https://github.com/ViTAE-Transformer/ViTAE-VSA) | [ViTPose](https://github.com/ViTAE-Transformer/ViTPose) | [Matting](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting) | [Scene Text Detection](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Scene-Text-Detection)  | [Video Object Segmentation](https://github.com/ViTAE-Transformer/VOS-LLB)
 
 # Introduction
 
