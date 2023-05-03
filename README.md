@@ -5,7 +5,6 @@
 <p align="center">
   <a href="#news">News</a> |
   <a href="#abstract">Abstract</a> |
-  <a href="#method">Method</a> |
   <a href="#usage">Usage</a> |
   <a href="#results">Results</a> |
   <a href="#statement">Statement</a>
@@ -19,7 +18,7 @@
 
 # News
 
-***02/05/2023***
+***04/05/2023***
 
 - The paper is post on arxiv! The code will be made public available once cleaned up.
 
@@ -45,15 +44,16 @@ The code and dataset will be released soon.
 
 
 # Results
-# The Quality of Generated Masks
+# The basic information of generated datasets
 
 <figure>
 <img src="figs/figure3.png">
-<figcaption align = "center"><b>Figure 3: The distribution of IoU between the generated
-masks and ground truth masks in the COCOText
-training dataset:  <a href="https://arxiv.org/abs/1601.07140">COCO_Text V2</a>  
+<figcaption align = "center"><b>Figure 3: Comparisons of different high-resolution RS segmentation datasets. 
  </b></figcaption>
 </figure>
+
+<br>
+
 We present the comparison of our SAMRS dataset with existing high-resolution RS segmentation datasets in table. Based on the available high-resolution RSI object detection datasets, we can efficiently annotate 10,5090 images, which is more than ten times the capacity of existing datasets. Additionally, SAMRS inherits the categories of the original detection datasets, which makes them more diverse than other high-resolution RS segmentation collections. It is worth noting that RS object datasets usually have more diverse categories than RS segmentation datasets due to the difficulty of tagging pixels in RSIs, and thus our SAMRS reduces this gap. 
 
 
@@ -64,8 +64,7 @@ We present the comparison of our SAMRS dataset with existing high-resolution RS 
 
 <figure>
 <img src="figs/figure2.jpg">
-<figcaption align = "center"><b>Figure 2: Some visualization results of the generated masks in five datasets using the SAMText
-pipeline. The top row shows the scene text frames while the bottom row shows the generated masks.</a>  
+<figcaption align = "center"><b>Figure 2: Some visual examples from the three subsets of our SAMRS dataset.  
  </b></figcaption>
 </figure>
 
@@ -78,58 +77,39 @@ In figure, we visualize some segmentation annotations from the three subsets in 
 
 
 ## Dataset Statistics and Analysis
-### The size distribution.
+### The class distribution.
 
 <figure>
 <img src="figs/figure4.png">
-<figcaption align = "center"><b>Figure 4: (a) The mask size distributions of the ICDAR15, RoadText-1k, LSVDT, and DSText datasets.
-Masks exceeding 10,000 pixels are excluded from the statistics. (b) The mask size distributions of
-the BOVText datasets. Masks exceeding 80,000 pixels are excluded from the statistics.</a>  
+<figcaption align = "center"><b>Figure 4: Statistics of the number of pixels and instances for each category in the SAMRS database. The histograms for the subsets SOTA, SIOR, and FAST are shown in the first, second, and third columns, respectively. The first row presents histograms on a per-pixel basis, while the second row presents histograms on a per-instance basis.</a>  
  </b></figcaption>
 </figure>
 
 
 
-### The IoU and COV distribution.
+### The mask size distribution.
 
 <figure>
 <img src="figs/figure5.png">
-<figcaption align = "center"><b>Figure 5: (a) The distribution of IoU between the generated masks and ground truth bounding boxes
-in each dataset. (b) The CoV distribution of mask size changes for the same individual in consecutive
-frames in all five datasets, excluding the CoV scores exceeding 1.0 from the statistics.</a>  
+<figcaption align = "center"><b>Figure 5: Statistics of the mask sizes in different subsets of the SAMRS database. (a) SOTA. (b) SIOR. (c) FAST.</a>  
  </b></figcaption>
 </figure>
 
-
-
-### The spatial distribution.
-
-<figure>
-<img src="figs/figure6.png">
-<figcaption align = "center"><b>Figure 6: Visualization of the heatmaps that depict the spatial distribution of the generated masks in
-the five video text spotting datasets employed to establish SAMText-9M.</a>  
- </b></figcaption>
-</figure>
 
 
 
 # Statement
 
-This project is for research purpose only. For any other questions please contact [haibinhe@whu.edu.cn](mailto:haibinhe@whu.edu.cn).
+This project is for research purpose only. For any other questions please contact [d_wang@whu.edu.cn](mailto:d_wang@whu.edu.cn).
 
 
 
 ## Citation
 
-If you find SAMText helpful, please consider giving this repo a star:star: and citing:
+If you find SAMRS helpful, please consider giving this repo a star:star: and citing:
 
 ```
-@inproceedings{SAMText,
-  title={Scalable Mask Annotation for Video Text Spotting},
-  author={Haibin He, Jing Zhang, Mengyang Xu, Juhua Liu, Bo Du, Dacheng Tao},
-  booktitle={arxiv},
-  year={arXiv preprint arXiv:2305.01443}
-}
+
 ```
 
 
