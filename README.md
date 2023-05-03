@@ -42,7 +42,7 @@ The code and dataset will be released soon.
 
 
 # Results
-# The basic information of generated datasets
+## The basic information of generated datasets
 
 <figure>
 <img src="figs/figure3.png">
@@ -56,7 +56,7 @@ We present the comparison of our SAMRS dataset with existing high-resolution RS 
 
 
 
-# Visualization of Generated Masks
+## Visualization of Generated Masks
 
 
 
@@ -67,10 +67,6 @@ We present the comparison of our SAMRS dataset with existing high-resolution RS 
 </figure>
 
 In figure, we visualize some segmentation annotations from the three subsets in our SAMRS dataset. As can be seen, SOTA exhibits a greater number of instances for tiny cars, whereas FAST provides a more fine-grained annotation of existing categories in SOTA such as car, ship, and plane. SIOR on the other hand, offers annotations for more diverse ground objects, such as *dam*. Hence, our SAMRS dataset encompasses a wide range of categories with varying sizes and distributions, thereby presenting a new challenge for RS semantic segmentation.
-
-
-
-
 
 
 
