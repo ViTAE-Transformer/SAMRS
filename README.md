@@ -5,7 +5,7 @@
 <h5 align="center"><em>Di Wang, Jing Zhang, Bo Du, Dacheng Tao, Liangpei Zhang</em></h5>
 <p align="center">
   <a href="#news">News</a> |
-  <a href="#abstract">Abstract</a> |
+  <a href="#introduction">Abstract</a> |
   <a href="#usage">Usage</a> |
   <a href="#results">Results</a> |
   <a href="#statement">Statement</a>
@@ -21,7 +21,7 @@
 - The paper is post on arxiv! The code will be made public available once cleaned up.
 
 
-  Other applications of [ViTAE](https://github.com/ViTAE-Transformer/ViTAE-Transformer) inlcude: [ViTPose](https://github.com/ViTAE-Transformer/ViTPose) | [Remote Sensing](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Remote-Sensing) | [Matting](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting) | [VSA](https://github.com/ViTAE-Transformer/ViTAE-VSA) | [Video Object Segmentation](https://github.com/ViTAE-Transformer/VOS-LLB)
+  Other applications of [ViTAE](https://github.com/ViTAE-Transformer/ViTAE-Transformer) inlcude: [VSA](https://github.com/ViTAE-Transformer/ViTAE-VSA) | [ViTPose](https://github.com/ViTAE-Transformer/ViTPose) | [Text Detection](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Scene-Text-Detection) | [Matting](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting)  | [Video Object Segmentation](https://github.com/ViTAE-Transformer/VOS-LLB)
 
 # Introduction
 
