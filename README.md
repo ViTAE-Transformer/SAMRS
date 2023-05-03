@@ -40,6 +40,8 @@ This is the official repository of the paper <a href="https://arxiv.org/abs/"> S
  </b></figcaption>
 </figure>
 
+<p>
+
 <p align="left">The success of the <a href="https://arxiv.org/abs/2304.02643"> Segment Anything Model (SAM) </a> demonstrates the significance of data-centric machine learning. However, due to the difficulties and high costs associated with annotating Remote Sensing (RS) images, a large amount of valuable RS data remains unlabeled, particularly at the pixel level. In this study, we leverage SAM and existing RS object detection datasets to develop an efficient pipeline for generating a large-scale RS segmentation dataset, dubbed SAMRS. SAMRS surpasses existing high-resolution RS segmentation datasets in size by several orders of magnitude, and provides object category, location, and instance information that can be used for semantic segmentation, instance segmentation, and object detection, either individually or in combination. We also provide a comprehensive analysis of SAMRS from various aspects. We hope it could facilitate research in RS segmentation, particularly in large model pre-training.
 
 
@@ -56,7 +58,7 @@ The code and dataset will be released soon.
  </b></figcaption>
 </figure>
 
-<br>
+<p>
 
 We present the comparison of our SAMRS dataset with existing high-resolution RS segmentation datasets in table. Based on the available high-resolution RSI object detection datasets, we can efficiently annotate 10,5090 images, which is more than ten times the capacity of existing datasets. Additionally, SAMRS inherits the categories of the original detection datasets, which makes them more diverse than other high-resolution RS segmentation collections. It is worth noting that RS object datasets usually have more diverse categories than RS segmentation datasets due to the difficulty of tagging pixels in RSIs, and thus our SAMRS reduces this gap. 
 
@@ -71,6 +73,8 @@ We present the comparison of our SAMRS dataset with existing high-resolution RS 
 <figcaption align = "center"><b>Figure 3: Some visual examples from the three subsets of our SAMRS dataset.  
  </b></figcaption>
 </figure>
+
+<p>
 
 In figure, we visualize some segmentation annotations from the three subsets in our SAMRS dataset. As can be seen, SOTA exhibits a greater number of instances for tiny cars, whereas FAST provides a more fine-grained annotation of existing categories in SOTA such as car, ship, and plane. SIOR on the other hand, offers annotations for more diverse ground objects, such as *dam*. Hence, our SAMRS dataset encompasses a wide range of categories with varying sizes and distributions, thereby presenting a new challenge for RS semantic segmentation.
 
