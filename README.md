@@ -18,7 +18,7 @@
 
 **2023.05.04**
 
-- The paper is post on arxiv! The code will be made public available once cleaned up.
+- The tech report is post on arxiv! The code will be made public available once cleaned up.
 
 
 
