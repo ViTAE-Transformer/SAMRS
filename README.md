@@ -108,7 +108,7 @@ If you find SAMRS helpful, please consider giving this repo a star:star: and cit
 
 ```
 @inproceedings{SAMRS,
-  title={Scalable Mask Annotation for Video Text Spotting},
+  title={Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model},
   author={Di Wang, Jing Zhang, Bo Du, Dacheng Tao, Liangpei Zhang},
   booktitle={arxiv},
   year={arXiv preprint arXiv:2305.02034}
