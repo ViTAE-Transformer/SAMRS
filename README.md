@@ -16,6 +16,10 @@
 
 # News
 
+**2023.06.14**
+
+- The semantic labels are released! See in [[Dataset](https://1drv.ms/f/s!AimBgYV7JjTlgckJ0Xip2yD0y9HD_Q?e=8hm8xa)]
+
 **2023.05.04**
 
 - The tech report is post on arxiv! Work in progress.
