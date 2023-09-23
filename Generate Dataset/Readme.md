@@ -35,11 +35,11 @@
 
 3. Preprocessing dataset:
 
-  - DOTA: Clipping the image to patches with [BBoxToolkit](https://github.com/jbwang1997/BboxToolkit), here the labels will be saved in a pkl file. Then, transforming the pkl file to multiple *.txt files that contains the annotations of corresponding patches through `ann_transform.py`. 
+    (1) DOTA: Clipping the image to patches with [BBoxToolkit](https://github.com/jbwang1997/BboxToolkit), here the labels will be saved in a pkl file. Then, transforming the pkl file to multiple *.txt files that contains the annotations of corresponding patches through `ann_transform.py`. 
 
-  - FAIR1M: Firstly, transforming *.xml to *.txt of the DOTA format. Then, since FAIR1M training and validation sets have the same filenames, we rename them for merging together. These processes can be finished by `ann_transform.py`. The next steps are the same as DOTA.
+    (2) FAIR1M: Firstly, transforming *.xml to *.txt of the DOTA format. Then, since FAIR1M training and validation sets have the same filenames, we rename them for merging together. These processes can be finished by `ann_transform.py`. The next steps are the same as DOTA.
 
-  - DIOR does not need to be clipped.
+    (3) DIOR does not need to be clipped.
 
 4. Generating segmentation datasets with `main_sam_hbox_semantic.py/main_sam_rhbox_semantic.py`.
 
