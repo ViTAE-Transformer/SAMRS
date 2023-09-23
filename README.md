@@ -62,6 +62,9 @@ This is the official repository of the paper <a href="https://arxiv.org/abs/2305
 - The codes of Pre-training and Fine-tuning are still being improved, which will be released later.
 
 
+
+
+
 # Results
 ## The basic information of generated datasets
 
@@ -103,7 +106,6 @@ In figure, we visualize some segmentation annotations from the three subsets in 
 </figure>
 
 
-
 ### The mask size distribution.
 
 <figure>
@@ -111,8 +113,6 @@ In figure, we visualize some segmentation annotations from the three subsets in 
 <figcaption align = "center"><b>Figure 5: Statistics of the mask sizes in different subsets of the SAMRS database. (a) SOTA. (b) SIOR. (c) FAST.</a>  
  </b></figcaption>
 </figure>
-
-
 
 
 # Statement
