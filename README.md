@@ -1,8 +1,8 @@
-<h1 align="center"> Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model </h1>
+<h1 align="center"> SAMRS: Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model </h1>
 <p align="center">
 <a href="https://arxiv.org/abs/2305.02034"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
 </p>
-<h5 align="center"><em>Di Wang, Jing Zhang, Bo Du, Dacheng Tao, Liangpei Zhang</em></h5>
+<h5 align="center"><em>Di Wang, Jing Zhang, Bo Du, Minqiang Xu, Lin Liu, Dacheng Tao, Liangpei Zhang</em></h5>
 <p align="center">
   <a href="#news">News</a> |
   <a href="#introduction">Abstract</a> |
@@ -16,7 +16,7 @@
 
 # News
 
-**2023.09.22**
+**2023.09.23**
 
 - The codes of generating SAMRS dataset are released!
 
