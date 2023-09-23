@@ -39,6 +39,8 @@
 
   - FAIR1M: Firstly, transforming *.xml to *.txt of the DOTA format. Then, since FAIR1M training and validation sets have the same filenames, we rename them for merging together. These processes can be finished by `ann_transform.py`. The next steps are the same as DOTA.
 
+  - DIOR does not need to be clipped.
+
 4. Generating segmentation datasets with `main_sam_hbox_semantic.py/main_sam_rhbox_semantic.py`.
 
 ## Thanks
