@@ -18,6 +18,10 @@
 
 **2023.09.22**
 
+- The codes of generating SAMRS dataset are released!
+
+**2023.09.22**
+
 - The paper is accepted by NeurIPS 2023 Datasets and Benchmarks Track!
 
 **2023.08.30**
