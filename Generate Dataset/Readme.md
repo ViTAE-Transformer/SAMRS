@@ -16,7 +16,7 @@
 
 - `loaddata.py`: Loading annotation files of object detection datasets.
 
-- `ann_transform.py`: Several functions for transforming annotataions.
+- `ann_transform.py`: Several functions for transforming annotations.
 
 - `visualize.py`: Visualizing the generated labels (Figure 4)
 
