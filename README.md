@@ -56,7 +56,10 @@ This is the official repository of the paper <a href="https://arxiv.org/abs/2305
 
 
 # Usage
-The code and dataset will be released soon.
+
+- Please see in [[Generate Dataset](https://github.com/ViTAE-Transformer/SAMRS/tree/main/Generate%20Dataset)] for the codes of producing SAMRS dataset.
+
+- The codes of Pre-training and Fine-tuning are still being improved, which will be released later.
 
 
 # Results
