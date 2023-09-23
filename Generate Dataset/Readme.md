@@ -35,8 +35,13 @@
 
 3. Preprocessing dataset:
 
-  - DOTA: Clipping the image to patches with BBoxToolkit, here the labels will be saved in a pkl file. Then, transforming the pkl file to multiple *.txt files that contains the annotations of corresponding patches through `ann_transform.py`. 
+  - DOTA: Clipping the image to patches with [BBoxToolkit](https://github.com/jbwang1997/BboxToolkit), here the labels will be saved in a pkl file. Then, transforming the pkl file to multiple *.txt files that contains the annotations of corresponding patches through `ann_transform.py`. 
 
   - FAIR1M: Firstly, transforming *.xml to *.txt of the DOTA format. Then, since FAIR1M training and validation sets have the same filenames, we rename them for merging together. These processes can be finished by `ann_transform.py`. The next steps are the same as DOTA.
 
 4. Generating segmentation datasets with `main_sam_hbox_semantic.py/main_sam_rhbox_semantic.py`.
+
+## Thanks
+
+[SAM](https://github.com/facebookresearch/segment-anything), [BBoxToolkit](https://github.com/jbwang1997/BboxToolkit), [MMRotate](https://github.com/open-mmlab/mmrotate), [SAM-MMRotate](https://github.com/Li-Qingyun/sam-mmrotate)
+
