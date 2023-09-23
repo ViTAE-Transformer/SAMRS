@@ -16,6 +16,10 @@
 
 # News
 
+**2023.09.22**
+
+- The paper is accepted by NeurIPS 2023 Datasets and Benchmarks Track!
+
 **2023.08.30**
 
 - The SAMRS images are released! See in [[Dataset](https://1drv.ms/f/s!AimBgYV7JjTlgckJ0Xip2yD0y9HD_Q?e=8hm8xa)]
