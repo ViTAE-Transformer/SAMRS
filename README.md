@@ -16,6 +16,10 @@
 
 # News
 
+**2023.09.26**
+
+- The NeurIPS version is post on arxiv!
+
 **2023.09.23**
 
 - The codes of generating SAMRS dataset are released!
