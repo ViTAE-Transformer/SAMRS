@@ -12,9 +12,11 @@
 </p>
 
 
-
-
 # News
+
+**2023.09.30**
+
+- The instance and detection labels are released! See in [[Dataset](https://1drv.ms/f/s!AimBgYV7JjTlgckJ0Xip2yD0y9HD_Q?e=8hm8xa)]
 
 **2023.09.26**
 
