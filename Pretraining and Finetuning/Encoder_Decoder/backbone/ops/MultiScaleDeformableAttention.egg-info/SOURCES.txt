@@ -1,0 +1,16 @@
+README.md
+setup.py
+/work/home/acdtzwus6v/dw/seg_pretrain_forward/backbone/ops/src/vision_hip.cpp
+/work/home/acdtzwus6v/dw/seg_pretrain_forward/backbone/ops/src/cpu/ms_deform_attn_cpu_hip.cpp
+/work/home/acdtzwus6v/dw/seg_pretrain_forward/backbone/ops/src/hip/ms_deform_attn_hip.hip
+MultiScaleDeformableAttention.egg-info/PKG-INFO
+MultiScaleDeformableAttention.egg-info/SOURCES.txt
+MultiScaleDeformableAttention.egg-info/dependency_links.txt
+MultiScaleDeformableAttention.egg-info/top_level.txt
+functions/__init__.py
+functions/ms_deform_attn_func.py
+modules/__init__.py
+modules/ms_deform_attn.py
+src/vision_hip.cpp
+src/cpu/ms_deform_attn_cpu_hip.cpp
+src/hip/ms_deform_attn_hip.hip
