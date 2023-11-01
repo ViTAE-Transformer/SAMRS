@@ -1,0 +1,12 @@
+setup.py
+/work/home/acdtzwus6v/dw/seg_pretrain_forward/backbone/ops_dcnv3/src/vision_hip.cpp
+/work/home/acdtzwus6v/dw/seg_pretrain_forward/backbone/ops_dcnv3/src/cpu/dcnv3_cpu_hip.cpp
+/work/home/acdtzwus6v/dw/seg_pretrain_forward/backbone/ops_dcnv3/src/hip/dcnv3_hip.hip
+DCNv3.egg-info/PKG-INFO
+DCNv3.egg-info/SOURCES.txt
+DCNv3.egg-info/dependency_links.txt
+DCNv3.egg-info/top_level.txt
+functions/__init__.py
+functions/dcnv3_func.py
+modules/__init__.py
+modules/dcnv3.py
