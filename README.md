@@ -1,6 +1,7 @@
 <h1 align="center"> SAMRS: Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model </h1>
 <p align="center">
 <a href="https://arxiv.org/abs/2305.02034"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://openreview.net/forum?id=jHrgq55ftl"><img src="https://img.shields.io/badge/NeurIPS-Paper-purple"></a>
 </p>
 <h5 align="center"><em>Di Wang, Jing Zhang, Bo Du, Minqiang Xu, Lin Liu, Dacheng Tao, Liangpei Zhang</em></h5>
 <p align="center">
