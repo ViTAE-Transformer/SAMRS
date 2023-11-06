@@ -24,7 +24,7 @@ parser = argparse.ArgumentParser(description='PyTorch Semantic Segmentation')
 parser.add_argument('--backbone', type=str, default=None, choices=['resnet50','swint','vitaev2_s',
                                                                    'vitaev2_s_dpr3','vit_b_rvsa',
                                                                    'vitae_b_rvsa','internimage_t',
-                                                                   'vitadapter_b','vit_b','vit_s'], help='backbone name')
+                                                                   'vitadapter_b','vit_b'], help='backbone name')
 parser.add_argument('--decoder', type=str, default=None, choices=['unet','unetpp','upernet'], help='decoder name')
 parser.add_argument('--dataset', type=str, default=None, choices=['potsdam', 'vaihingen', 'isaid'], help='used dataset')
 
