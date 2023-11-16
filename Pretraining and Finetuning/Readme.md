@@ -72,7 +72,7 @@ Predicting the fintuned model on the testing set:
 CUDA_VISIBLE_DEVICES=0 python test_gpu.py \
     --backbone 'resnet50' --decoder 'upernet' \
     --dataset 'potsdam' \
-	--ms 'False' --mode 'test' \
+    --ms 'False' --mode 'test' \
     --resume [funetuned model save path] \
     --save_path [prediction save path]
 ```
