@@ -21,7 +21,7 @@
 | SAMRS-MAE + SEP | ViT-B + RVSA | UperNet | [Onedrive](https://1drv.ms/u/s!AimBgYV7JjTlgcl1XGhIPz9NIfBSqg?e=9sovVo) | 
 | IMP + SEP | ResNet-50 | Mask2Former | [Onedrive](https://1drv.ms/u/s!AimBgYV7JjTlgclzhjljnG4Q2S2xKQ?e=I8jcOw) |
 
-## SAMRS-MAE Pretrained Model
+## SAMRS-MAE Pretrained Models
 
 | Pretrain | Backbone | Clipping | Weights |
 | :----- | :----- | :----- | :-----:|
