@@ -41,7 +41,7 @@
 Performing the **segmentation pretraining (SEP)** with different segmention networks on the SAMRS dataset. Here is an example of using ImageNet pretrained UperNet-ResNet-50:
 
 ```
-CUDA_VISIBLE_DEVICES = 0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 \
     --nnodes=1 --master_port=10001 --master_addr = [server ip] main_pretrain.py \
     --backbone 'resnet50' --decoder 'upernet' \
     --datasets 'sota' 'sior' 'fast' \
@@ -54,9 +54,9 @@ CUDA_VISIBLE_DEVICES = 0,1,2,3,4,5,6,7 python -m torch.distributed.launch --npro
 **Finetuning** the above segmentation pretrained model on different datasets, examplified by ISPRS Potsdam. Here, we manully set the epoch to satisfy 80000 iters.
 
 ```
-CUDA_VISIBLE_DEVICES = 0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_per_node=8 \
     --nnodes=1 --master_port=10002 --master_addr = [server ip] main_finetune.py \
-	--backbone 'resnet50' --decoder 'upernet' \
+    --backbone 'resnet50' --decoder 'upernet' \
     --dataset 'potsdam' \
     --batch_size 1 --batch_size_val 1 --workers 8 \
     --save_path [funetuned model save path] \
@@ -69,8 +69,8 @@ CUDA_VISIBLE_DEVICES = 0,1,2,3,4,5,6,7 python -m torch.distributed.launch --npro
 Predicting the fintuned model on the testing set:
 
 ```
-CUDA_VISIBLE_DEVICES =0 python test_gpu.py \
-	--backbone 'resnet50' --decoder 'upernet' \
+CUDA_VISIBLE_DEVICES=0 python test_gpu.py \
+    --backbone 'resnet50' --decoder 'upernet' \
     --dataset 'potsdam' \
 	--ms 'False' --mode 'test' \
     --resume [funetuned model save path] \
