@@ -21,12 +21,17 @@
 | SAMRS-MAE + SEP | ViT-B + RVSA | UperNet | [Onedrive](https://1drv.ms/u/s!AimBgYV7JjTlgcl1XGhIPz9NIfBSqg?e=9sovVo) | 
 | IMP + SEP | ResNet-50 | Mask2Former | [Onedrive](https://1drv.ms/u/s!AimBgYV7JjTlgclzhjljnG4Q2S2xKQ?e=I8jcOw) |
 
+The **Segmentation Pretrained Models** models also can be obtained from [Baidu](https://pan.baidu.com/s/1vACMeDX8PS4qzEWYw7oNPg?pwd=vgkp) 
+
 ## SAMRS-MAE Pretrained Models
 
 | Pretrain | Backbone | Clipping | Weights |
 | :----- | :----- | :----- | :-----:|
 | MAE | ViT-B |   | [Onedrive](https://1drv.ms/u/s!AimBgYV7JjTlgcl2bCi1g_0oI0A9Qw?e=D5uqI4) | 
-| MAE | ViT-B | √  | [Onedrive](https://1drv.ms/u/s!AimBgYV7JjTlgcl318C5gq17UQgzOA?e=IDkLIh) | 
+| MAE | ViT-B | √  | [Onedrive](https://1drv.ms/u/s!AimBgYV7JjTlgcl318C5gq17UQgzOA?e=IDkLIh) |
+
+The **SAMRS-MAE Pretrained Models** also can be obtained from [Baidu](https://pan.baidu.com/s/17zgTUxghgFghmhB1X4h0wA?pwd=vrxs) 
+
 # Usages
 
 ## Environment:

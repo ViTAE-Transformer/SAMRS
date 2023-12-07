@@ -15,6 +15,10 @@
 
 # News
 
+**2023.12.07**
+
+The SAMRS dataset can be acquired from [[Baidu](https://pan.baidu.com/s/15N7DoZj53cIXEDKw6hzD4A?pwd=q9u6)]
+
 **2023.09.30**
 
 - The instance and detection labels are released! See in [[Dataset](https://1drv.ms/f/s!AimBgYV7JjTlgckJ0Xip2yD0y9HD_Q?e=ErZXPS)]
