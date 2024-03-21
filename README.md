@@ -133,7 +133,7 @@ This project is for research purpose only. For any other questions please contac
 
 ## Citation
 
-If you find SAMRS helpful, please consider giving this repo a star:star: and citing:
+If you find SAMRS helpful, please consider giving this repo a ⭐ and citing:
 
 ```
 @inproceedings{SAMRS,
