@@ -15,6 +15,10 @@
 
 # News
 
+**2023.03.25**
+
+- The rotated bounding box version of SOTA (SOTA-RBB) can be obtained from [[Dataset](https://1drv.ms/f/s!AimBgYV7JjTlgckJ0Xip2yD0y9HD_Q?e=ErZXPS)] and [[Baidu](https://pan.baidu.com/s/15N7DoZj53cIXEDKw6hzD4A?pwd=q9u6)]
+
 **2023.12.07**
 
 - The SAMRS dataset can be acquired from [[Baidu](https://pan.baidu.com/s/15N7DoZj53cIXEDKw6hzD4A?pwd=q9u6)]
