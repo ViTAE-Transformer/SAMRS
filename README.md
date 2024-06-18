@@ -141,11 +141,12 @@ If you find SAMRS helpful, please consider giving this repo a ⭐ and citing:
 
 ```
 @inproceedings{SAMRS,
-  title={{SAMRS}: Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model},
-  author={Di Wang and Jing Zhang and Bo Du and Minqiang Xu and Lin Liu and Dacheng Tao and Liangpei Zhang},
-  booktitle={Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
-  year={2023},
-  url={https://openreview.net/forum?id=jHrgq55ftl}
+ author = {Wang, Di and Zhang, Jing and Du, Bo and Xu, Minqiang and Liu, Lin and Tao, Dacheng and Zhang, Liangpei},
+ booktitle = {Advances in Neural Information Processing Systems},
+ pages = {8815--8827},
+ title = {SAMRS: Scaling-up Remote Sensing Segmentation Dataset with Segment Anything Model},
+ volume = {36},
+ year = {2023}
 }
 ```
 
