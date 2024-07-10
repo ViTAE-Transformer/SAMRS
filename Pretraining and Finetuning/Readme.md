@@ -32,6 +32,17 @@ The **Segmentation Pretrained Models** models also can be obtained from [Baidu](
 
 The **SAMRS-MAE Pretrained Models** also can be obtained from [Baidu](https://pan.baidu.com/s/17zgTUxghgFghmhB1X4h0wA?pwd=vrxs) 
 
+
+## Finetuned Models
+
+| Pretrain | Backbone | Decoder | Dataset | OA | Weights | Dataset | mIOU | Weights |
+| :----- | :----- | :----- | :-----:| :-----:| :-----:| :-----:| :-----:| :-----:|
+| IMP+SEP | Swin-T | UperNet | Potsdam |  91.88 | [Baidu](https://pan.baidu.com/s/1j7ydyfuHGTL-rONrkknidQ?pwd=pw8q) | isAID |  64.25 | [Baidu](https://pan.baidu.com/s/1j7ydyfuHGTL-rONrkknidQ?pwd=pw8q) |
+| IMP+SEP | ViTAEv2-S | UperNet | Potsdam |  92.25 | [Baidu](https://pan.baidu.com/s/1j7ydyfuHGTL-rONrkknidQ?pwd=pw8q) | isAID |  66.26 | [Baidu](https://pan.baidu.com/s/1j7ydyfuHGTL-rONrkknidQ?pwd=pw8q) |
+| IMP+SEP | InternImage-T | UperNet | Potsdam |  92.08 | [Baidu](https://pan.baidu.com/s/1j7ydyfuHGTL-rONrkknidQ?pwd=pw8q) | isAID |  66.05 | [Baidu](https://pan.baidu.com/s/1j7ydyfuHGTL-rONrkknidQ?pwd=pw8q) |
+| IMP+SEP | ViT-Adapter-B | UperNet | Potsdam |  91.91 | [Baidu](https://pan.baidu.com/s/1j7ydyfuHGTL-rONrkknidQ?pwd=pw8q) | - |  - | - |
+
+
 # Usages
 
 ## Environment:
