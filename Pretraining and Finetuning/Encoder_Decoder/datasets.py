@@ -70,14 +70,6 @@ class SegmentationDataset(D.Dataset):
             T.Normalize(IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD),
         ])
 
-    def _background_to_trainid(self, label):
-
-        label_copy = label.copy()
-        label_copy += 1
-        label_copy[label_copy==256] = 0
-
-        return label_copy
-
     def __len__(self):
         return len(self.targets)
 
@@ -87,10 +79,6 @@ class SegmentationDataset(D.Dataset):
 
         image = np.array(Image.open(img_path))
         label = np.array(Image.open(lbl_path))
-
-        if self.args.background == 'True':
-            label = np.array(label, dtype=np.int32)
-            label = self._background_to_trainid(label)
 
         augments = self.transform(image=image, mask=label)
 
