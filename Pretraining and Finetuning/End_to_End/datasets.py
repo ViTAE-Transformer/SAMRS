@@ -107,7 +107,6 @@ class SegDataSample(BaseDataElement):
     def seg_logits(self) -> None:
         del self._seg_logits
 
-
 #@TRANSFORMS.register_module()
 class PackSegInputs(BaseTransform):
     """Pack the inputs data for the semantic segmentation.
