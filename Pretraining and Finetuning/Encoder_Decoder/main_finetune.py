@@ -56,6 +56,7 @@ parser.add_argument('--ft', type=str, default='False', choices=['True', 'False']
 
 # must have resume
 parser.add_argument('--resume', type=str, default=None, help='resume name')
+parser.add_argument('--load', type=str, default=None, choices=['backbone','network'], help='loaded model part')
 
 # save
 parser.add_argument('--save_path', type=str, default=None, help='path of saving model')
