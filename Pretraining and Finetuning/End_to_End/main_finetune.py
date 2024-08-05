@@ -51,6 +51,7 @@ parser.add_argument('--local_rank', type=int, default=0)
 
 # ft: continue training
 parser.add_argument('--ft', type=str, default='False', choices=['True', 'False'], help='finetune model')
+parser.add_argument('--load', type=str, default=None, choices=['backbone','network'], help='loaded model part')
 
 # must have resume
 parser.add_argument('--resume', type=str, default=None, help='resume name')
